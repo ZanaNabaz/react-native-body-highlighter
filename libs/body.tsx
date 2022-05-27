@@ -110,7 +110,8 @@ const Body = ({
         <View
           style={{
             flexDirection: "row",
-            transform: [{ scale }]
+            transform: [{ scale }],
+            flex:1
           }}
         >
           {!backOnly && renderBodySvg(bodyFront)}
